@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import { Div } from './src/div/div.component';
+import { Div } from './src/div';
 import React from 'react';
 
 const App = () => {
 	return (
-		<Div alignItems='center' bg='blue' flex={1} justifyContent='center'>
+		<Div flex={1} w={200} bg='red' maxH={200} h={200}>
 			<Text>App</Text>
 		</Div>
 	);
