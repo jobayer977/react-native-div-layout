@@ -2,10 +2,22 @@
 	"name": "react-native-div-layout",
 	"version": "0.0.2",
 	"private": false,
+	"description": "Div Layout provides a set of utility props to make designing with custom styles easier in React Native.",
 	"scripts": {
 		"test": "jest",
 		"release": "release-it"
 	},
+	"keywords": [
+		"react-native",
+		"ios",
+		"android"
+	],
+	"repository": "https://github.com/jobayer977/react-native-div-layout",
+	"author": "Jobayer Hossain <jobayerhossain977@gmail.com> (https://github.com/jobayer977)",
+	"bugs": {
+		"url": "https://github.com/jobayer977/react-native-div-layout/issues"
+	},
+	"homepage": "https://github.com/jobayer977/react-native-div-layout#readme",
 	"dependencies": {
 		"react": "18.2.0",
 		"react-native": "0.71.2"
@@ -30,5 +42,23 @@
 	},
 	"jest": {
 		"preset": "react-native"
+	},
+	"release-it": {
+		"git": {
+			"requireUpstream": false,
+			"commitMessage": "chore: release ${version}",
+			"tagName": "v${version}"
+		},
+		"npm": {
+			"publish": true
+		},
+		"github": {
+			"release": true
+		},
+		"plugins": {
+			"@release-it/conventional-changelog": {
+				"preset": "angular"
+			}
+		}
 	}
 }
