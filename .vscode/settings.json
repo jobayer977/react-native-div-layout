@@ -1,3 +1,7 @@
 {
-	"conventionalCommits.scopes": ["Init", "Elements"]
+	"conventionalCommits.scopes": [
+		"Init",
+		"Elements",
+		"Style"
+	]
 }

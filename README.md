@@ -1,4 +1,6 @@
-React Native Div Layout is a npm package that provides a set of utility props to make designing with custom styles easier in React Native. With this package, you can quickly and easily add custom styles to your components, without having to write a lot of custom CSS or JavaScript.
+<img src="./docs/logo.png" alt="React Native Div Layout" width="200" />
+
+React Native Div Layout provides a set of utility props to make designing with custom styles easier in React Native. With this package, you can quickly and easily add custom styles to your components, without having to write a lot of custom CSS or JavaScript.
 
 ## Installation
 
@@ -22,7 +24,7 @@ After that, you can use the Div component in your JSX code like any other React 
 Here are some examples of the utility props that are available:
 
 ```jsx
-<Div bgColor="red">
+<Div bg="red">
   <Text>Hello, world!</Text>
 </Div>
 ```
