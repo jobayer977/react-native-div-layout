@@ -1,5 +1,5 @@
 <center>
-<img src="./docs/logo.png" alt="React Native Div Layout" width="200" />
+<img src="https://raw.githubusercontent.com/jobayer977/react-native-div-layout/main/docs/logo.png" alt="React Native Div Layout" width="200" />
 </center>
 React Native Div Layout provides a set of utility props to make designing with custom styles easier in React Native. With this package, you can quickly and easily add custom styles to your components, without having to write a lot of custom CSS or JavaScript.
 
